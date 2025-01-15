@@ -128,7 +128,7 @@ def handler(event=None, context=None):
 
    # Define the prompt for description generation
     prompt = (
-        "Analyze the provided image and provide a concise description that accurately describes its main content. " 
+        "Analyze the provided image and generate a concise, accurate description of its main content." 
     )
 
     # Prepare the model input
