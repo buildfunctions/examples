@@ -55,9 +55,9 @@ pip install buildfunctions
 Uses Claude to generate a sorting function, then executes and scores it inside an isolated CPU sandbox with a reward function that checks correctness and edge case handling.
 
 **Files:**
-- [`agent-sandbox/anthropic-reward-function/basic.py`](./agent-sandbox/anthropic-reward-function/basic.py) - Main example: generate code with Claude, evaluate in a sandbox
-- [`agent-sandbox/anthropic-reward-function/reward_handler.py`](./agent-sandbox/anthropic-reward-function/reward_handler.py) - Reward function template that scores generated code
-- [`agent-sandbox/anthropic-reward-function/requirements.txt`](./agent-sandbox/anthropic-reward-function/requirements.txt) - Python dependencies
+- [`agent-sandbox/python/anthropic-reward-function/basic.py`](./agent-sandbox/python/anthropic-reward-function/basic.py) - Main example: generate code with Claude, evaluate in a sandbox
+- [`agent-sandbox/python/anthropic-reward-function/reward_handler.py`](./agent-sandbox/python/anthropic-reward-function/reward_handler.py) - Reward function template that scores generated code
+- [`agent-sandbox/python/anthropic-reward-function/requirements.txt`](./agent-sandbox/python/anthropic-reward-function/requirements.txt) - Python dependencies
 
 **How it works:**
 1. Authenticate with Buildfunctions
@@ -70,7 +70,7 @@ Uses Claude to generate a sorting function, then executes and scores it inside a
 
 ```bash
 # Move into app directory
-cd agent-sandbox/anthropic-reward-function
+cd agent-sandbox/python/anthropic-reward-function
 
 # Install dependencies
 pip install -r requirements.txt

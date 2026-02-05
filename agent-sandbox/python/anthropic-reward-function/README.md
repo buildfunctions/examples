@@ -3,7 +3,7 @@
 <p align="center">
   <h1 align="center">
   <a href="https://www.buildfunctions.com" target="_blank">
-    <img src="./public/readme/buildfunctions-header.svg" alt="logo" width="900">
+    <img src="../../../public/readme/buildfunctions-header.svg" alt="logo" width="900">
   </a>
   </h1>
 </p>
@@ -12,10 +12,10 @@
 
 <p align="center">
   <a href="https://discord.com/users/buildfunctions" target="_blank">
-    <img src="./public/readme/discord-button.png" height="32" />
+    <img src="../../../public/readme/discord-button.png" height="32" />
   </a>&nbsp;
   <a href="https://www.buildfunctions.com/docs/company/buildfunctions" target="_blank">
-    <img src="./public/readme/read-the-docs-button.png" height="32" />
+    <img src="../../../public/readme/read-the-docs-button.png" height="32" />
   </a>&nbsp;
 </p>
 
@@ -31,7 +31,7 @@
 <p align="center">
   <h1 align="center">
   <a href="https://www.buildfunctions.com" target="_blank">
-    <img src="./public/readme/buildfunctions-logo-and-servers-dark.svg" alt="logo" width="900">
+    <img src="../../../public/readme/buildfunctions-logo-and-servers-dark.svg" alt="logo" width="900">
   </a>
   </h1>
 </p>
