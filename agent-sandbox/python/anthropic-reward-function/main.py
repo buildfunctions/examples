@@ -69,7 +69,7 @@ async def test_code_generation_with_reward():
             "name": f"reward-eval-{int(time.time())}",
             "language": "python",
             "code": handler_code,
-            "memory": 512,
+            "memory": "512MB",
             "timeout": 30,
         })
         print(f"   CPU Sandbox created: {sandbox.name}")
