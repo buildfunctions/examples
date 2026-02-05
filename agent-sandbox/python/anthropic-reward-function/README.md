@@ -38,17 +38,7 @@
 
 > **The Buildfunctions SDK for AI Agents** - Hardware-isolated CPU and GPU Sandboxes for untrusted AI actions.
 
-## Installation
-
-```bash
-# TypeScript / JavaScript
-npm install buildfunctions
-
-# Python
-pip install buildfunctions
-```
-
-## Examples
+## Example
 
 ### Anthropic: Code Generation with Reward Scoring
 
@@ -68,11 +58,22 @@ Uses Claude to generate a sorting function, then executes and scores it inside a
 
 ## Setup
 
-```bash
-# Install dependencies
-pip install -r requirements.txt
+### Download
 
-# Copy and fill in your API keys
+```bash
+curl -L https://codeload.github.com/buildfunctions/examples/tar.gz/main | tar -xz --strip-components=3 examples-main/agent-sandbox/python/anthropic-reward-function
+cd anthropic-reward-function
+```
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Update environment variables
+
+```bash
+# Create an API token at https://www.buildfunctions.com/settings
 cp .env.example .env
 ```
 
@@ -82,9 +83,8 @@ BUILDFUNCTIONS_API_TOKEN=""
 ANTHROPIC_KEY=""
 ```
 
-## Run
+### Run
 
 ```bash
-# Run 
 python main.py
 ```

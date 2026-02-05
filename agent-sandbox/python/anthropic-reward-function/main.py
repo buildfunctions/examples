@@ -2,8 +2,7 @@
 Buildfunctions + Anthropic: Code Generation with Reward Scoring
 
 Generates a sorting function with Claude, then executes and scores it
-in an isolated sandbox using a reward function that checks correctness
-and edge case handling.
+in a hardware-isolated sandbox using a reward function.
 """
 import os
 import re

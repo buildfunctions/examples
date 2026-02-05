@@ -43,12 +43,16 @@
 ```bash
 # TypeScript / JavaScript
 npm install buildfunctions
+# or
+yarn add buildfunctions
+# or
+pnpm add buildfunctions
 
 # Python
 pip install buildfunctions
 ```
 
-## Examples
+## Example
 
 ### Anthropic: Code Generation with Reward Scoring
 
@@ -68,14 +72,22 @@ Uses Claude to generate a sorting function, then executes and scores it inside a
 
 ## A Python Example
 
+### Download
+
 ```bash
-# Move into app directory
-cd agent-sandbox/python/anthropic-reward-function
+git clone https://github.com/buildfunctions/examples.git
+cd examples/agent-sandbox/python/anthropic-reward-function
+```
+### Install dependencies
 
-# Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# Copy and fill in your API keys
+### Update environment variables
+
+```bash
+# Create an API token at https://www.buildfunctions.com/settings
 cp .env.example .env
 ```
 
@@ -85,9 +97,8 @@ BUILDFUNCTIONS_API_TOKEN=""
 ANTHROPIC_KEY=""
 ```
 
-## Run
+### Run
 
 ```bash
-# Run 
 python main.py
 ```
