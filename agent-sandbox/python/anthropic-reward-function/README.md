@@ -55,7 +55,7 @@ pip install buildfunctions
 Uses Claude to generate a sorting function, then executes and scores it inside an isolated CPU sandbox with a reward function that checks correctness and edge case handling.
 
 **Files:**
-- [`basic.py`](./basic.py) - Main example: generate code with Claude, evaluate in a sandbox
+- [`main.py`](./main.py) - Main example: generate code with Claude, evaluate in a sandbox
 - [`reward_handler.py`](./reward_handler.py) - Reward function template that scores generated code
 - [`requirements.txt`](./requirements.txt) - Python dependencies
 
@@ -86,5 +86,5 @@ ANTHROPIC_KEY=""
 
 ```bash
 # Run 
-python basic.py
+python main.py
 ```
