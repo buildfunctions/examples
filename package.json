@@ -1,0 +1,20 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "Buildfunctions SDK for Agents examples: Hardware-isolated CPU and GPU Sandboxes for untrusted AI actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildfunctions/examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buildfunctions/examples/issues"
+  },
+  "homepage": "https://github.com/buildfunctions/examples#readme"
+}
