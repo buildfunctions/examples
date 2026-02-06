@@ -61,8 +61,8 @@ Uses Claude to generate a sorting function, then executes and scores it inside a
 ### Download
 
 ```bash
-curl -L https://codeload.github.com/buildfunctions/examples/tar.gz/main | tar -xz --strip-components=3 examples-main/agent-sandbox/python/anthropic-reward-function
-cd anthropic-reward-function
+curl -L https://codeload.github.com/buildfunctions/examples/tar.gz/main | tar -xz --strip-components=3 examples-main/python/anthropic/agent-sandbox-reward-function
+cd agent-sandbox-reward-function
 ```
 ### Install dependencies
 
